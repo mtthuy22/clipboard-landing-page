@@ -1,0 +1,32 @@
+//HEADER
+header {
+  padding: 4rem 3rem;
+  position: relative;
+  background-image: url("../images/bg-header-mobile.png");
+ 
+  @media (min-width: $desktop) {
+    background-image: url("../images/bg-header-desktop.png");
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    @include center-content;
+  }
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header__logo {
+    width: 4rem;
+  }
+
+  .header__container{
+    margin-bottom: 2rem;
+  }
+
+  .header__intro{
+    margin: 2rem auto;
+    @media (min-width: $desktop){
+      width: 65%;
+    }
+  }
+
+}

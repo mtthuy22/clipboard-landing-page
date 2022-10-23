@@ -1,0 +1,23 @@
+
+//COLORS 
+$strong-cyan: hsl(171, 66%, 44%);
+$light-blue: hsl(233, 100%, 69%);
+$dark-gray: hsl(210, 10%, 33%);
+$light-gray: hsl(201, 11%, 66%);
+
+//FONTS
+$regular-text: 18px;
+$primary-font: 'Bai Jamjuree', sans-serif;
+$bold-text: 600;
+$light-text: 400;
+
+//VIEWPORT
+$mobile: 375px;
+$desktop: 1440px;
+
+//mixin
+
+@mixin center-content{
+    justify-content: center;
+    align-items: center;
+}

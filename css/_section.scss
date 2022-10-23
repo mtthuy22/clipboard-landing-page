@@ -1,0 +1,44 @@
+.section {
+  margin: 4rem 0;
+
+  @media (min-width: $desktop) {
+    &__flex {
+      display: flex;
+    }
+  }
+
+  &__intro {
+    margin: 1.5rem 3rem;
+    p{
+      margin-top: 2rem;
+    }
+  }
+
+  
+  &__img {
+    display: flex;
+    margin: 4rem 0;
+    @include center-content;
+
+    &--desktop{
+      @media (min-width: $desktop){
+        transform: translateX(-300px);
+      }
+    }
+
+    &--pc {
+      width: 90vw;
+
+      @media (min-width: $desktop) {
+        width: 50vw;
+      }
+    }
+
+    &--devices {
+      width: 90vw;
+      @media (min-width: $desktop) {
+        width: 50vw;
+      }
+    }
+  }
+}
