@@ -66,6 +66,7 @@ button {
 .btn__cyan {
   background-color: hsl(171deg, 66%, 44%);
   box-shadow: 0 3px 10px hsl(171deg, 66%, 44%);
+  transition: filter 0.5s ease;
 }
 .btn__cyan:active, .btn__cyan:hover {
   filter: opacity(70%);
@@ -75,6 +76,7 @@ button {
 .btn__blue {
   background-color: hsl(233deg, 100%, 69%);
   box-shadow: 0 3px 10px hsl(233deg, 100%, 69%);
+  transition: filter 0.5s ease;
 }
 .btn__blue:active, .btn__blue:hover {
   filter: opacity(70%);
@@ -225,7 +227,7 @@ header .header__intro {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    width: 450px;
+    width: 400px;
     transform: translateX(-290px);
   }
 }
